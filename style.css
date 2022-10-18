@@ -23,16 +23,24 @@ section {
   height: 300px;
 }
 header {
-  background: #1f2937;
+  background: var(--dark-color);
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 20px;
+  width: 100%;
 }
 header h1 {
   color: var(--gray);
   padding-left: 10px;
   font-size: 24px;
+}
+header a {
+  max-width: 10%;
+}
+header img {
+  max-width: 100px;
+
 }
 nav {
   display: flex;
